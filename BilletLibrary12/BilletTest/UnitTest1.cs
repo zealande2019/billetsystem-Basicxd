@@ -11,7 +11,7 @@ namespace BilletTest
         {
             var bil = new Bil();
 
-            double pris = bil.Pris(true);
+            decimal pris = bil.Pris(true);
 
             Assert.AreEqual(237.5, pris);
         }
@@ -31,7 +31,7 @@ namespace BilletTest
         {
             var mc = new MC();
 
-            double pris = mc.Pris(false);
+            decimal pris = mc.Pris(false);
 
             Assert.AreEqual(125, pris);
         }

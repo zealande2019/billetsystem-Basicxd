@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\mikai\Source\Repos\zealande2019\billetsystem-Basicxd\BilletLibrary12\BilletLibrary12\BilletLibrary12.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>

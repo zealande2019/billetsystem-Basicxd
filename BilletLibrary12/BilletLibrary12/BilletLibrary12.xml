@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilletLibrary12</name>
+    </assembly>
+    <members>
+        <member name="P:BilletLibrary12.Bil.Nummerplade">
+            <summary>
+            Nummerplade kan ikke være længere end 7
+            </summary>
+        </member>
+        <member name="P:BilletLibrary12.Bil.Dato">
+            <summary>
+            Man kan sætte datoen
+            </summary>
+        </member>
+        <member name="M:BilletLibrary12.Bil.Pris(System.Boolean)">
+            <summary>
+            Angiv om der bliver brugt brobiz eller ej, ved hjælp af true eller false
+            </summary>
+            <param name="brobiz"></param>
+            <returns>Skal returner enten 237,5 med brobiz eller 250 uden brobiz</returns>
+        </member>
+        <member name="M:BilletLibrary12.Bil.Køretøj">
+            <summary>
+            Hvilken køretøj det er
+            </summary>
+            <returns>Skal returnere bil</returns>
+        </member>
+        <member name="P:BilletLibrary12.MC.Nummerplade">
+            <summary>
+            Nummerplade kan ikke være længere end 7
+            </summary>
+        </member>
+        <member name="P:BilletLibrary12.MC.Dato">
+            <summary>
+            Man kan sætte datoen
+            </summary>
+        </member>
+        <member name="M:BilletLibrary12.MC.Pris(System.Boolean)">
+            <summary>
+            Angiv om der bliver brugt brobiz eller ej, ved hjælp af true eller false
+            </summary>
+            <param name="brobiz"></param>
+            <returns>Skal returner enten 118,75 med brobiz eller 125 uden brobiz</returns>
+        </member>
+        <member name="M:BilletLibrary12.MC.Køretøj">
+            <summary>
+            Hvilken køretøj det er
+            </summary>
+            <returns>Skal returnere bil</returns>
+        </member>
+    </members>
+</doc>

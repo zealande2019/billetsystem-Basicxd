@@ -2,7 +2,7 @@
 {
     abstract public class KøretøjBase
     {
-        public abstract double Pris(bool brobiz);
+        public abstract decimal Pris(bool brobiz);
 
         public abstract string Køretøj();
     }

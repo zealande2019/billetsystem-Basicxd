@@ -36,11 +36,13 @@ namespace BilletLibrary12
         /// </summary>
         /// <param name="brobiz"></param>
         /// <returns>Skal returner enten 237,5 med brobiz eller 250 uden brobiz</returns>
-        public override double Pris(bool brobiz)
+        public override decimal Pris(bool brobiz)
         {
             if (brobiz == true)
             {
-                return 250 - 12.5;
+                decimal rabat = ((250M / 100M) * 5M);
+
+                return 250 - rabat;
             }
             else
             {
