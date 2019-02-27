@@ -36,7 +36,9 @@ namespace BilletLibrary12
         {
             if (brobiz == true)
             {
-                return 125;
+                decimal rabat = ((125M / 100M) * 5M);
+
+                return 125 - rabat;
             }
             else
             {

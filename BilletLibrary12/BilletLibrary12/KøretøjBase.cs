@@ -1,6 +1,6 @@
 ﻿namespace BilletLibrary12
 {
-    abstract public class KøretøjBase
+    public abstract class KøretøjBase
     {
         public abstract decimal Pris(bool brobiz);
 
